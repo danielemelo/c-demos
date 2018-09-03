@@ -18,9 +18,10 @@ int main() {
         printf("Enter second value: ");
         scanf("%f", &num2);
 
-        printf("\nNow, choose an action:\n\
-1 - Add\n2 - Subtract\n3 - Multiply\n\
-4 - Divide\n5 - Average\n0 - Exit\n");
+        printf("\nNow, choose an action:\n");
+        printf("1 - Add\n2 - Subtract\n");
+        printf("3 - Multiply\n4 - Divide\n");
+        printf("5 - Average\n0 - Exit\n");
         scanf("%d", &choice);
 
         switch (choice) {
